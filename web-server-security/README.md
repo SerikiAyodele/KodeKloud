@@ -16,4 +16,4 @@ APP SERVER 3
     4  cd /var/www/html/official
     5  vi .htaccess
     6  cd ~
-    7  systemctl restart httpd               -C
+    7  systemctl restart httpd
