@@ -16,7 +16,7 @@ Note: You can test using curl on the given app server as LBR URL will not work f
 
 APP SERVER 3
 ============
-
+    
     1  yum install httpd
     2  systemctl start apache
     3  systemctl status httpd
@@ -30,4 +30,3 @@ APP SERVER 3
     8  systemctl status httpd
     9  curl http://localhost:8089        - SHOULD RETURN THE MESSAGE
     10 curl -i http://localhost:8089     - SHOULD RETURN OK STATUS
- 
