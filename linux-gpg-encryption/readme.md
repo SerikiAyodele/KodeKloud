@@ -69,7 +69,7 @@ Decrypt /home/decrypt_me.asc to /home/decrypted_me.txt. (Passphrase for decrypti
 
     pub  2048R/865C070D 2020-01-19 kodekloud <kodekloud@kodekloud.com>
     Primary key fingerprint: FEA8 5011 C456 B5E9 AE5A  516F 8F17 F26E CCE3 AF51
-        Subkey fingerprint: 7B4B 5CFC 5E4F B4B6 EEC0  83E5 DD6B 8506 865C 070D
+    Subkey fingerprint: 7B4B 5CFC 5E4F B4B6 EEC0  83E5 DD6B 8506 865C 070D
 
     It is NOT certain that the key belongs to the person named
     in the user ID.  If you *really* know what you are doing,
