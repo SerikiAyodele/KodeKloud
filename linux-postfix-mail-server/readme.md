@@ -6,7 +6,7 @@ xFusionCorp Industries has planned to set up a common email server in Stork DC. 
 - Install and configure dovecot on the same server.
 
 MAIL SERVER
-===============
+============
 Log into the mail server
     1  rpm -qa |grep postfix
     2  rpm -qa |grep dovecot
