@@ -7,6 +7,7 @@ d. Please make sure script won't ask for password while copying the archive file
 
 APP SERVER 3
 ==============
+note: don't do this from the root user
    1  cd /scripts
    2  vi media_backup.sh
    3  ssh-keygen -t rsa
