@@ -7,10 +7,10 @@ d. You can access the website using APP button on the top bar.
 
 APP SERVER 1
 ============
-   1   yum --enablerepo=epel -y install mod_authnz_external pwauth 
+   1  yum --enablerepo=epel -y install mod_authnz_external pwauth 
    2  vi /etc/httpd/conf.d/authnz_external.conf
    3  mkdir -p /var/www/html/protected
    4  cat /var/www/html/protected/index.html
-   45  systemctl start httpd
+   5  systemctl start httpd
    6  curl -u mariyam:BruCStnMT5 http://localhost:8080/protected/
-    `This is KodeKloud Protected Directory`
+      `This is KodeKloud Protected Directory`
