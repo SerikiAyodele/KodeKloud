@@ -11,14 +11,14 @@ Log into the mail server
     1  rpm -qa |grep postfix
     2  rpm -qa |grep dovecot
     3  yum install postfix -y
-    # configurations to be done in this file is not shown here
+        # configurations to be done in this file is not shown here
     4  vi /etc/postfix/main.cf 
     5  useradd anita
     6  passwd anita          
     7  systemctl start postfix
     8  systemctl status postfix
     9  yum install dovecot -y
-    # configurations to be done in these files are not shown here
+        # configurations to be done in these files are not shown here
    10  vi /etc/dovecot/dovecot.conf       
    11  vi /etc/dovecot/conf.d/10-mail.conf
    12  vi /etc/dovecot/conf.d/10-auth.conf
