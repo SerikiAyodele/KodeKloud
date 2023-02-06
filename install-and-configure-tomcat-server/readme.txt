@@ -2,7 +2,7 @@ The Nautilus application development team recently finished the beta version of 
 
 a. Install tomcat server on App Server 2 using yum.
 b. Configure it to run on port 6300.
-c. There is a ROOT.war file on Jump host at location /tmp. Deploy it on this tomcat server and make sure the webpage works directly on base URL i.e without specifying any sub-directory anything like this http://URL/ROOT 
+c. There is a ROOT.war file on Jump host at location /tmp. Deploy it on this tomcat server and make sure the webpage works directly on base URL i.e without specifying any sub-directory    anything like this http://URL/ROOT 
 
 APP SERVER 2
 =============
