@@ -11,13 +11,13 @@ BACKUP-SERVER
     5  systemctl status iptables
     6  iptables -A INPUT -p tcp --dport 8094 -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT
     7  iptables -A INPUT -p tcp --dport 6000 -m conntrack --ctstate NEW -j REJECT
-    8  iptables -L --line-numbers                                                                 -CHANGE LINE 5 TO ICMP
+    8  iptables -L --line-numbers                                                                    - CHANGE LINE 5 TO ICMP
     9  iptables -R INPUT 5 -p icmp -j REJECT
    10  iptables -L --line-numbers
        ![img](img/1.png)
    11  service iptables save
-   12  telnet stbkp01 6000                                                                        - REACH APACHE FROM JUMP SERVER
-   13  telnet stbkp01 8094                                                                        - REACH NGINX FROM JUMP SERVER
+   12  telnet stbkp01 6000                                                                           - REACH APACHE FROM JUMP SERVER
+   13  telnet stbkp01 8094                                                                           - REACH NGINX FROM JUMP SERVER
  
    
 
