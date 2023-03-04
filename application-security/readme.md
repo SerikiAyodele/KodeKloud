@@ -12,6 +12,7 @@ BACKUP-SERVER
     6  iptables -A INPUT -p tcp --dport 8094 -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT
     7  iptables -A INPUT -p tcp --dport 6000 -m conntrack --ctstate NEW -j REJECT
     8  iptables -L --line-numbers                                                                    - CHANGE LINE 5 TO ICMP
+       ![img](img/2.png)
     9  iptables -R INPUT 5 -p icmp -j REJECT
    10  iptables -L --line-numbers
        ![img](img/1.png)
