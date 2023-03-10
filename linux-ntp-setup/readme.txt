@@ -8,3 +8,5 @@ APP SERVER 2
    2  sudo su -
    3  yum install -y ntp  -- INSTALL THE NTP SERVER
    4  vi /etc/ntp.conf    -- ADD THE SERVER HERE
+
+   git commit --date="2023-03-02" -m "New Commit"
