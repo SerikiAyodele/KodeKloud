@@ -12,9 +12,9 @@ APP SERVER 1-3
     1  yum install httpd
     2  vi /etc/logrotate.d/httpd
     3  add:
-    ```
-    monthly
-    rotate 3
-    ```
+        ```
+        monthly
+        rotate 3
+        ```
     4 systemctl start httpd
     5 systemctl status httpd
