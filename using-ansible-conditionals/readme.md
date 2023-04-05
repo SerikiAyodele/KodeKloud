@@ -15,3 +15,5 @@ Copy media.txt file present under /usr/src/devops directory on jump host to App 
 NOTE: You can use ansible_nodename variable from gathered facts with when condition. Additionally, please make sure you are running the play for all hosts i.e use - hosts: all.
 
 Note: Validation will try to run the playbook using command ansible-playbook -i inventory playbook.yml, so please make sure the playbook works this way without passing any extra arguments.
+
+
