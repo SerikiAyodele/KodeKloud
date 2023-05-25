@@ -29,3 +29,9 @@ APP SERVER 3
     8  systemctl status httpd
     9  curl http://localhost:8089        - SHOULD RETURN THE MESSAGE
     10 curl -i http://localhost:8089     - SHOULD RETURN OK STATUS
+
+
+
+
+
+

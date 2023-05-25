@@ -73,5 +73,3 @@ APP SERVER 3
    9  systemctl start nginx
    10 systemctl status nginx
    11 curl -Ik https://stapp03                    --FROM JUMP HOST
-
-
