@@ -20,8 +20,8 @@ APP SERVER 3
         ```
     4. docker image tag busybox:musl busybox:news
     5. docker images
-        ```
-        REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
-        busybox      musl      7b10eaf5a34c   2 weeks ago   1.41MB
-        busybox      news      7b10eaf5a34c   2 weeks ago   1.41MB
+        ```diff
+          REPOSITORY   TAG       IMAGE ID       CREATED       SIZE
+        + busybox      musl      7b10eaf5a34c   2 weeks ago   1.41MB
+        - busybox      news      7b10eaf5a34c   2 weeks ago   1.41MB
         ```
