@@ -20,5 +20,3 @@ BACKUP-SERVER
    12  telnet stbkp01 6000                                                                           - REACH APACHE FROM JUMP SERVER
    13  telnet stbkp01 8094                                                                           - REACH NGINX FROM JUMP SERVER
  
-   
-
